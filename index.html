@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burak Yılmaz | Computer Engineer</title>
+    <meta name="keyword" content="Flutter,Java,Javascript">
+    <meta name="description" content="Burak Yılmaz | Computer Engineer">
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Tablet: max-width ulaştığı zaman bu css dosyası çalışacak-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!--Telefon: max-width ulaştığı zaman bu css dosyası çalışacak-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+   
+   <header class="bg-dark-blue">
+      <div class="container">
+          <nav id="navbar">
+               <h1 class="heading-small">Burak Yılmaz</h1>
+               <ul>
+                   <li><a href="#home">Ana Sayfa</a></li>
+                   <li><a href="#training">Eğitimler</a></li>
+                   <li><a href="#courses">Kurslar</a></li>
+                   <li><a href="#contact">İletişim</a></li>
+               </ul>
+           </nav>
+      </div>
+       
+   </header>
+   
+   <section id="home">
+       
+       <img src="images/burak.jpg" alt="Burak Yılmaz">
+       
+       <div class="name text-center">
+           <h2 class="heading-big">Burak Yılmaz</h2>
+           <p>Computer Engineer | Founder of Draxex</p>
+       </div>
+       
+       <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+       
+   </section>
+   
+   <section id="training" class="bg-dark-blue">
+       <h3 class="text-center heading-medium">Eğitimler</h3>
+       
+       <div class="items">
+           <article class="item">
+              <i class="fa fa-pencil-alt"></i>
+               <h3>Sınıf İçi Eğitimler</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+           
+           <article class="item">
+              <i class="fa fa-pencil-alt"></i>
+               <h3>Online İçerikler</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+           
+           <article class="item">
+              <i class="fa fa-pencil-alt"></i>
+               <h3>Konferanslar</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+       </div>
+   </section>
+   
+   <section id="courses">
+       <h3 class="text-center heading-medium">Kurslar</h3>
+       <div class="container">
+           <div class="courses">
+               <div class="course">
+                   <div class="course-image">
+                       <img src="images/java.jpg" alt="Python">
+                       <span>%90 İndirim</span>
+                   </div>
+                   <div class="course-info">
+                       <div class="title">
+                           Komple Java Geliştirme Kursu
+                       </div>
+                       <div class="description">
+                           Komple Java Geliştirme Kursu | Sıfırdan Java öğren, kendi programlarını yap
+                       </div>
+                       <div class="instructor">Burak Yılmaz</div>
+                       <div class="rating">4.6 | (7000 Oylama)</div>
+                   </div>
+               </div>
+               
+               <div class="course">
+                   <div class="course-image">
+                       <img src="images/python.jpg" alt="Python">
+                       <span>%90 İndirim</span>
+                   </div>
+                   <div class="course-info">
+                       <div class="title">
+                           Komple Python Geliştirme Kursu
+                       </div>
+                       <div class="description">
+                           Komple Python Geliştirme Kursu | Sıfırdan Python öğren, kendi programlarını yap
+                       </div>
+                       <div class="instructor">Burak Yılmaz</div>
+                       <div class="rating">4.6 | (7000 Oylama)</div>
+                   </div>
+               </div>
+               
+               <div class="course">
+                   <div class="course-image">
+                       <img src="images/html.jpeg" alt="Python">
+                       <span>%90 İndirim</span>
+                   </div>
+                   <div class="course-info">
+                       <div class="title">
+                           Komple HTML Geliştirme Kursu
+                       </div>
+                       <div class="description">
+                           Komple HTML Geliştirme Kursu | Sıfırdan HTML öğren, kendi programlarını yap
+                       </div>
+                       <div class="instructor">Burak Yılmaz</div>
+                       <div class="rating">4.6 | (7000 Oylama)</div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   <footer id="contact" class="bg-dark-blue">
+       <div class="contact-form">
+           <form>
+               <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+               
+               <div class="form-group">
+                   <label for="name">İsim</label>
+                   <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+               </div>
+               
+               <div class="form-group">
+                   <label for="email">Email</label>
+                   <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+               </div>
+               
+               <div class="form-group">
+                   <label for="message">Message</label>
+                   <textarea class="form-control" name="message" id="message" rows="5" placeholder="Mesajınız..."></textarea>
+               </div>
+               
+               <button type="submit" class="btn btn-block">Gönder</button>
+           </form>
+           
+           <ul>
+               <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+           </ul>
+       </div>
+   </footer>
+    
+</body>
+</html>
